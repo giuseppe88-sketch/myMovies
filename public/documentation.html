@@ -4,13 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
     <title>myMovies API</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 100px;
+            font-family: 'Source Code Pro', monospace;
+            font-weight:500;
+        }
+        header{
+            text-align: center;
+        }
+        nav h1{
+            font-size:55px;
+            
+        }
+        th,td{
+            padding:15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            
+        }
+        th{
+            background-color: aquamarine;
+        }
+        tr:hover {background-color: #f1efef;}
+       
+    </style>
 </head>
 <body>
-    <h1>Intro Project</h1>
+    <header>
+       <nav><img src="/home/giuseppe/Desktop/myMovies/img/movie-clapper-open.svg" alt="image logo" width="130px">
+       <h1>myMovies Documentation</h1>
+      </nav> 
+    </header>
+    <div class="content">
+    <h1>Objective:</h1>
     <p>To build the server-side component of a “movies” web application. The web
-        application will provide users with access to information about different
+        application will provide users with access to information about classic
         movies, directors, and genres. Users will be able to sign up, update their
-        personal information, and create a list of their favorite movies.</p>
+        personal information, and create a list of their favorite classic movies.</p>
+     <h1>User Stories:</h1>
+     <p>As a user, I want to be able to receive information on classic movies, directors and genres so that I can learn more about classics I have watched or I am interested.</p>
+     <p>As a user, I want to be able to create a profile so I can save data about my favorite classic movies.</p>
+     <h1>Essential Features:</h1>
+     <ul> 
+         <li>
+         Return a list of All movies to the user.
+       </li>
+         <li>Return data(Description,genres,director,image URL) about a single movies by title to the user.</li>
+         <li>Return data about a genre (description) by name/title.</li>
+         <li>Return data about a director by name.</li>
+         <li>Allow new user to register.</li>
+         <li>Allow new user to update user info.</li>
+         <li>Allow user to add a movie to their list of favorites.</li>
+         <li>Allow user to remove a movie from their list of favorites.</li>
+         <li>Allow existing user to deregister.</li>
+         <li>Allow user to see which actors star in which movies.</li>
+         <li>Allow users to view information about different actors.</li>
+         <li>Allow users to view more information about different movies, such as the release date and
+            the movie rating.</li>
+        <li>Allow users to create a “To Watch” list in addition to their “Favorite Movies” list.</li>
+     </ul>
+     <h1>Technologies used:</h1>
+        <ul>
+         <li>Visual studio code</li>
+         <li>Node.js</li>
+         <li>React</li>
+         <li>Express</li>
+         <li>MongoDB</li>
+        </ul>
+    </div>  
+     <div class="endpoint-table">
+         <h1>Description endpoints:</h1>
+         <table>
+             <thead>
+                 <tr>
+                     <th>Request</th>
+                     <th>URL</th>
+                     <th>Method</th>
+                     <th>Body data</th>
+                     <th>Response</th>
+                 </tr>
+             </thead>
+                <tr>
+                    <td>Display Welcome Page to the user.</td>
+                    <td>/</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>A text message welcoming the user</td>
+                </tr>
+                <tr>
+                    <td>Register user</td>
+                    <td>/users</td>
+                    <td>POST</td>
+                    <td>A JSON object holding data about the user to register.</td>
+                    <td>A JSON object contain data about user that was register.</td>
+                </tr>
+                <tr>
+                    <td>Deregister user.</td>
+                    <td>/users/:username</td>
+                    <td>DELETE</td>
+                    <td>None</td>
+                    <td>A text message indicating user was successfully deregister.</td>
+                </tr>
+                <tr>
+                    <td>Get the list of favorites movies.</td>
+                    <td>/users/:username/favorites</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>A JSON object contain data about list of favorites movies.</td>
+                </tr>
+                <tr>
+                    <td>Add movie to the list of favorites.</td>
+                    <td>/users/:username/favorites</td>
+                    <td>POST</td>
+                    <td>A JSON Object holding data about the movies to add to the favorites list.</td>
+                    <td>A JSON object contain data about the movie add to the list.</td>
+                </tr>
+                <tr>
+                    <td>Remove movie to the favorite list.</td>
+                    <td>/users/:username/favorites/:movie</td>
+                    <td>DELETE</td>
+                    <td>None</td>
+                    <td>A text message indicating movie was successfully remove.</td>
+                </tr>
+                <tr>
+                    <td>Get watchlist.</td>
+                    <td>/users/:username/favorites/watchlist</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>A JSON contain data of all the movies to watchlist.</td>
+                </tr>
+                <tr>
+                    <td>add movies to watchlist.</td>
+                    <td>/users/:username/favorites/watchlist/:movie</td>
+                    <td>POST</td>
+                    <td>A JSON object contain movie data</td>
+                    <td>A JSON object holding data about the movie that was added to the whatchlist.</td>
+                </tr>
+                <tr>
+                    <td>remove movies to watchlist.</td>
+                    <td>/users/:username/favorites/watchlist/:movie</td>
+                    <td>DELETE</td>
+                    <td>None</td>
+                    <td>A text message indicating movie successfully remove.</td>
+                </tr>
+                <tr>
+                    <td>Get list movies</td>
+                    <td>/movies</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>JSON object contain data about all the movies.</td>
+                </tr>
+                <tr>
+                    <td>Get list movies by title.</td>
+                    <td>/movies/:title</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>A JSON object contain data(description, genres, director,image URL) about the movie chose. </td>
+                </tr>
+                <tr>
+                    <td>Get list directors.</td>
+                    <td>/directors</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>JSON object contain all the directors.</td>
+                </tr>
+                <tr>
+                    <td>Get list director by name.</td>
+                    <td>/director/:name</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>A JSON object contain data about director chose, bio, holding name, birthyear and movies</td>
+                </tr>
+                <tr>
+                    <td>Get list actors.</td>
+                    <td>/actors</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>JSON object contain data about all the actors. </td>
+                </tr>
+                <tr>
+                    <td>Get list genres</td>
+                    <td>/genres</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>A JSON object contain data about all the genres</td>
+                </tr>
+                <tr>
+                    <td>Get list actors by name.</td>
+                    <td>/actors/:name</td>
+                    <td>GET</td>
+                    <td>None</td>
+                    <td>JSON object contain data about actor chose, holding name birthyear and movies</td>
+                </tr>
+                <tr>
+                    <td>Allow user to login to the application</td>
+                    <td>/login</td>
+                    <td>POST</td>
+                    <td>None</td>
+                    <td>A JSON object contain data about the user logged to the app, holding name, lastname, birthday, email, username.</td>
+                </tr>
+         </table>
+
+     </div>
 </body>
+    
+    
 </html>
