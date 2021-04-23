@@ -7,4 +7,8 @@
 
 # TECHNOLOGIES USED
 
--[NODE.JS]
+- [NODE.JS]
+- [Visual studio code]
+- [React]
+- [Express]
+- [MongoDB]
