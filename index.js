@@ -189,21 +189,10 @@ app.delete('/users/:Username', (req, res) => {
       res.status(500).send('Error: ' + err);
     });
 });
-//get list favorites
-app.get("/users/:username/favorites/",(req,res)=>{
-  movies.favorites
-  .find()
-  .then((favoritesMovies) => {
-    res.status(201).json(favoritesMovies);
-  })
-  .catch((err) => {
-    console.error(err);
-    res.status(500).send(`Error: ${err}`);
-  });
-});
+
     
 //add movies to favorites list
-app.post('/users/:username/favorites/:movieID', (req, res) => {
+app.post('/users/:username/favorites/:movie', (req, res) => {
   users.findOneAndUpdate({ username: req.params.username }, {
      $push: { favoriteMovies: req.params.movieID }
    },
@@ -233,7 +222,7 @@ app.delete("/users/:username/favorites/:movie",(req,res)=>{
   });
 });
 //get favorites movie by name
-app.get("/users/:username/favorites/:movieId",(req,res)=>{
+app.get("/users/:username/favorites/:movie",(req,res)=>{
   users.findOne({ favoritesMovies: req.params.favoritesMovies})
   .then((favMov) => {
       res.json(favMov);
@@ -244,7 +233,7 @@ app.get("/users/:username/favorites/:movieId",(req,res)=>{
      });
 });
 //get watchlist movie by name
-app.get("/users/:username/watchlist/:movieId",(req,res)=>{
+app.get("/users/:username/watchlist/:movie",(req,res)=>{
   users.findOne({ watchListMovies: req.params.watchListMovies})
   .then((watchMov) => {
       res.json(watchMov);
@@ -256,7 +245,7 @@ app.get("/users/:username/watchlist/:movieId",(req,res)=>{
 });
 
 //add movies to watchlist
-app.post('/users/:username/watchlist/:movieID', (req, res) => {
+app.post('/users/:username/watchlist/:movie', (req, res) => {
   users.findOneAndUpdate({ username: req.params.username }, {
      $push: { watchListMovies: req.params.movieID }
    },
@@ -271,7 +260,7 @@ app.post('/users/:username/watchlist/:movieID', (req, res) => {
   });
 });
 //delete watchlist movie by name
-app.delete("/users/:username/watchlist/:movieId",(req,res)=>{
+app.delete("/users/:username/watchlist/:movie",(req,res)=>{
   users.findOneAndRemove({ watchListmovies: req.params.watchListMovies })
   .then((watchMov) => {
     if (!watchMov) {
