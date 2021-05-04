@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const morgan = require('morgan');
 const mongoose = require("mongoose");
-const models = require("./models.js")
-bodyParser = require('body-parser'),
-uuid = require('uuid');
+const models = require("./models.js");
+const bodyParser = require('body-parser');
+const uuid = require('uuid');
 //invoke middleware morgan function so the request is logged whit common format
 app.use(morgan('common'));
 app.use(bodyParser.json());
