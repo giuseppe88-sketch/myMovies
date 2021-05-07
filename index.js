@@ -10,24 +10,22 @@ const passport = require('passport');
 const uuid = require('uuid');
 //invoke middleware morgan function so the request is logged whit common format
 app.use(bodyParser.json());
-
+// eslint-disable-next-line no-unused-vars
 const auth = require('./auth')(app);
 
 app.use(morgan('common'));
 
-
-
 require('./passport');
 
-//import models from models.js
 const movies = models.movie;
 const users = models.user;
 const directors = models.director;
 const actors = models.actor;
 const genres = models.genre;
 
-// connect mongo database
 mongoose.connect('mongodb://localhost:27017/myMoviesDB',{ userNewUrlParser: true, useUnifiedTopology: true });
+
+
 
 app.get("/",(req,res) => {
   res.send("Welcome to my Classics. Here you can find all the info you are looking for about classic movies of all ages!!");
@@ -74,17 +72,16 @@ app.post('/users', (req, res) => {
   });
 
 //get all movies json 
-  app.get('/movies',passport.authenticate('jwt', { session: false }), (req, res) => {
-    movies
-      .find()
-      .then((moviesSearch) => {
-        res.status(201).json(moviesSearch);
-      })
-      .catch((err) => {
-        console.error(err);
-        res.status(500).send(`Error: ${err}`);
-      });
-  });
+app.get('/movies', passport.authenticate('jwt', { session: false }), (req, res) => {
+  movies.find()
+    .then((movies) => {
+      res.status(201).json(movies);
+    })
+    .catch((error) => {
+      console.error(error);
+      res.status(500).send('Error: ' + error);
+    });
+});
 
 
 //defines url documentation and respons whit sendfile
@@ -185,7 +182,7 @@ app.get("/users/:username",(req,res)=>{
 });
 
 //delete user
-app.delete('/users/:Username', passport.authenticate('jwt', { session: false }),(req, res) => {
+app.delete('/users/:username', /*passport.authenticate('jwt', { session: false }),*/(req, res) => {
   users.findOneAndRemove({ username: req.params.username })
     .then((user) => {
       if (!user) {
