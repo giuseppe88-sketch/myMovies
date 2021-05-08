@@ -5,8 +5,9 @@ const mongoose = require("mongoose");
 const models = require("./models.js");
 const bodyParser = require('body-parser');
 const passport = require('passport');
-
-
+const cors = require('cors');
+app.use(cors());
+const { check, validationResult } = require('express-validator');
 const uuid = require('uuid');
 //invoke middleware morgan function so the request is logged whit common format
 app.use(bodyParser.json());
@@ -16,6 +17,7 @@ const auth = require('./auth')(app);
 app.use(morgan('common'));
 
 require('./passport');
+
 
 const movies = models.movie;
 const users = models.user;
@@ -33,8 +35,20 @@ app.get("/",(req,res) => {
 
 
 // add new users to database
-app.post('/users', (req, res) => {
-    users.findOne({ username: req.body.username })
+app.post('/users',[
+  check('username', 'username is required').isLength({min: 5}),
+  check('username', 'username contains non alphanumeric characters - not allowed.').isAlphanumeric(),
+  check('password', 'password is required').not().isEmpty(),
+  check('email', 'email does not appear to be valid').isEmail()
+],(req, res) => {
+  // check the validation object for errors
+  let errors = validationResult(req);
+
+  if (!errors.isEmpty()) {
+    return res.status(422).json({ errors: errors.array() });
+  }
+  let hashedPassword = users.hashPassword(req.body.Password);
+  users.findOne({ username: req.body.username })
       .then((user) => {
         if (user) {
           return res.status(400).send(req.body.username + " " + 'already exists');
@@ -42,7 +56,7 @@ app.post('/users', (req, res) => {
           users
             .create({
               username: req.body.username,
-              password: req.body.password,
+              password: hashedPassword,
               email: req.body.email,
               birthday: req.body.birthday
             })
@@ -60,7 +74,7 @@ app.post('/users', (req, res) => {
   });
  
 //get all users json
-  app.get('/users', (req, res) => {
+  app.get('/users', passport.authenticate('jwt', { session: false }), (req, res) => {
     users.find()
       .then((users) => {
         res.status(201).json(users);
@@ -90,7 +104,7 @@ app.get("/documentation", (req,res) =>{
 });
 
 //create routes and define response sending json object
-app.get("/movies/:title",(req,res)=>{
+app.get("/movies/:title",passport.authenticate('jwt', { session: false }),(req,res)=>{
   movies.findOne({ title: req.params.title })
     .then((usermovie) => {
       res.json(usermovie);
@@ -170,7 +184,7 @@ app.get("/genres/:name",passport.authenticate('jwt', { session: false }),(req,re
   });
 });  
 //get user by name
-app.get("/users/:username",(req,res)=>{
+app.get("/users/:username",passport.authenticate('jwt', { session: false }),(req,res)=>{
   users.findOne({ username: req.params.username})
   .then((user) => {
       res.json(user);
@@ -182,7 +196,7 @@ app.get("/users/:username",(req,res)=>{
 });
 
 //delete user
-app.delete('/users/:username', /*passport.authenticate('jwt', { session: false }),*/(req, res) => {
+app.delete('/users/:username', passport.authenticate('jwt', { session: false }),(req, res) => {
   users.findOneAndRemove({ username: req.params.username })
     .then((user) => {
       if (!user) {
@@ -295,6 +309,7 @@ app.use((err, req, res, next) => {
     res.status(500).send('Something broke! try again!!');
   });
    //listen request to the portal localhost:8080
-  app.listen(8080,()=>{
-    console.log("your app is listening")
-});
+   const port = process.env.PORT || 8080;
+   app.listen(port, '0.0.0.0',() => {
+    console.log('Listening on Port ' + port);
+   });
