@@ -25,8 +25,8 @@ const directors = models.director;
 const actors = models.actor;
 const genres = models.genre;
 
-mongoose.connect('mongodb://localhost:27017/myMoviesDB',{ userNewUrlParser: true, useUnifiedTopology: true });
-
+//mongoose.connect('mongodb://localhost:27017/myMoviesDB',{ userNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.CONNECTION_URI, { userNewUrlParser: true, useUnifiedTopology: true })
 
 
 app.get("/",(req,res) => {
