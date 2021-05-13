@@ -1,0 +1,16 @@
+{
+	"_id" : ObjectId("6092d0c037a021c926c14380"),
+	"favoritesMovies" : [
+		ObjectId("608bdc4acfc164ae23558484"),
+		ObjectId("608bdc4acfc164ae23558485")
+	],
+	"watchListMovies" : [
+		ObjectId("608bdc4acfc164ae2355848d"),
+		ObjectId("608bdc4acfc164ae23558484")
+	],
+	"username" : "cummo",
+	"password" : "limmo",
+	"email" : "rumi@test.com",
+	"__v" : 0
+}
+

@@ -1,0 +1,76 @@
+{
+	"_id" : ObjectId("608b0d370f2333d730402276"),
+	"name" : "Thriller",
+	"description" : "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402277"),
+	"name" : "Comedy",
+	"description" : "Comedy is a genre of film in which the main emphasis is on humor. These films are designed to make the audience laugh through amusement and most often work by exaggerating characteristics for humorous effect."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402278"),
+	"name" : "Psychological horror",
+	"description" : "Psychological horror usually aims to create discomfort or dread by exposing common or universal psychological and emotional vulnerabilities/fears and revealing the darker parts of the human psyche that most people may repress or deny."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402279"),
+	"name" : "Indipendent movie",
+	"description" : "indie movie is a feature film or short film that is produced outside the major film studio system, in addition to being produced and distributed by independent entertainment companies."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d73040227a"),
+	"name" : "Gangster",
+	"description" : "A gangster film or gangster movie is a film belonging to a genre that focuses on gangs and organized crime. It is a subgenre of crime film, that may involve large criminal organizations, or small gangs formed to perform a certain illegal act."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d73040227b"),
+	"name" : "Drama",
+	"description" : "Drama Films are serious presentations or stories with settings or life situations that portray realistic characters in conflict with either themselves, others, or forces of nature. ... Dramatic films are probably the largest film genre because they include a broad spectrum of films. "
+}
+{
+	"_id" : ObjectId("608b0d370f2333d73040227c"),
+	"name" : "Historical",
+	"description" : "A historical film is a fiction film showing past events or set within a historical period. This extensive genre shares territory with the biopic, costume drama, heritage film, and epic film."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d73040227d"),
+	"name" : "Black comedy",
+	"description" : "Typically, a black comedy – or dark comedy – is a film which takes a heavy, controversial, disturbing, or generally off-limits subject matter and treats it in a humorous manner."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d73040227e"),
+	"name" : "Horror",
+	"description" : "A horror film is one that seeks to elicit fear in its audience for entertainment purposes. Horror films additionally aim to evoke viewers nightmares, fears, revulsions and terror of the unknown or the macabre."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d73040227f"),
+	"name" : "Western",
+	"description" : "The term 'Western', used to describe a narrative film genre, appears to have originated with a July 1912 article in Motion Picture World magazine."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402280"),
+	"name" : "Psychological thriller",
+	"description" : "Psychological thriller is a genre combining the thriller and psychological fiction genres. It is commonly used to describe movies and books that deal with psychological narratives in a thriller or thrilling setting."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402281"),
+	"name" : "Science fiction",
+	"description" : "Science fiction (or sci-fi) is a film genre that uses speculative, fictional science-based depictions of phenomena that are not fully accepted by mainstream science, such as extraterrestrial lifeforms, alien worlds, extrasensory perception and time travel, along with futuristic elements such as spacecraft, robots, cyborgs, interstellar travel or other technologies. Science fiction films have often been used to focus on political or social issues, and to explore philosophical issues like the human condition."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402282"),
+	"name" : "War",
+	"description" : "War film is a film genre concerned with warfare, typically about naval, air, or land battles, with combat scenes central to the drama. It has been strongly associated with the 20th century."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402283"),
+	"name" : "Noir",
+	"description" : "Noir is a cinematic term used primarily to describe stylish Hollywood crime dramas, particularly those that emphasize cynical attitudes and sexual motivations. The 1930s, 1940s and 1950s are generally regarded as the 'classic period' of American film noir. Film noir of this era is associated with a low-key, black-and-white visual style that has roots in German Expressionist cinematography. Many of the prototypical stories and much of the attitude of classic noir derive from the hardboiled school of crime fiction that emerged in the United States during the Great Depression."
+}
+{
+	"_id" : ObjectId("608b0d370f2333d730402284"),
+	"name" : "Apocalyptic and post-apocalyptic",
+	"description" : "is a subgenre of science fiction, science fantasy, dystopia or horror in which the Earth's (or another planet’s) civilization is collapsing or has collapsed."
+}
+

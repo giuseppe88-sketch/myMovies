@@ -100,54 +100,54 @@
                     <td>Register user</td>
                     <td>/users</td>
                     <td>POST</td>
-                    <td>A JSON object holding data about the user to register.</td>
+                    <td>A JSON object holding data about the user Structure like:<br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/post_user.json">example</a></td>
                     <td>A JSON object contain data about user that was register.</td>
                 </tr>
                 <tr>
                     <td>Deregister user.</td>
-                    <td>/users/:username</td>
+                    <td>/users/[USERNAME]</td>
                     <td>DELETE</td>
                     <td>None</td>
                     <td>A text message indicating user was successfully deregister.</td>
                 </tr>
                 <tr>
                     <td>Get the list of favorites movies.</td>
-                    <td>/users/:username/favorites</td>
+                    <td>/users/[USERNAME]/favorites</td>
                     <td>GET</td>
                     <td>None</td>
                     <td>A JSON object contain data about list of favorites movies.</td>
                 </tr>
                 <tr>
                     <td>Add movie to the list of favorites.</td>
-                    <td>/users/:username/favorites</td>
+                    <td>/users/[USERNAME]/favorites</td>
                     <td>POST</td>
-                    <td>A JSON Object holding data about the movies to add to the favorites list.</td>
+                    <td>A JSON Object holding data about the movies to add to the favorites list.Sructured like:<br> <a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/add_movies_favorites.json">example</a></td>
                     <td>A JSON object contain data about the movie add to the list.</td>
                 </tr>
                 <tr>
                     <td>Remove movie to the favorite list.</td>
-                    <td>/users/:username/favorites/:movie</td>
+                    <td>/users/[USERNAME]/favorites/[MOVIE]</td>
                     <td>DELETE</td>
                     <td>None</td>
                     <td>A text message indicating movie was successfully remove.</td>
                 </tr>
                 <tr>
                     <td>Get watchlist.</td>
-                    <td>/users/:username/favorites/watchlist</td>
+                    <td>/users/[USERNAME]/favorites/watchlist</td>
                     <td>GET</td>
                     <td>None</td>
                     <td>A JSON contain data of all the movies to watchlist.</td>
                 </tr>
                 <tr>
                     <td>add movies to watchlist.</td>
-                    <td>/users/:username/favorites/watchlist/:movie</td>
+                    <td>/users/[USERNAME]/movies/watchlist/[MOVIE]</td>
                     <td>POST</td>
-                    <td>A JSON object contain movie data</td>
+                    <td>A JSON object contain movie data. Structured like:<br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/add_movies_watchList.json">example</a></td>
                     <td>A JSON object holding data about the movie that was added to the whatchlist.</td>
                 </tr>
                 <tr>
                     <td>remove movies to watchlist.</td>
-                    <td>/users/:username/favorites/watchlist/:movie</td>
+                    <td>/users/[USERNAME]/movies/watchlist/[MovieID]</td>
                     <td>DELETE</td>
                     <td>None</td>
                     <td>A text message indicating movie successfully remove.</td>
@@ -157,46 +157,46 @@
                     <td>/movies</td>
                     <td>GET</td>
                     <td>None</td>
-                    <td>JSON object contain data about all the movies.</td>
+                    <td>JSON object contain data about all the movies. Structured like:<br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/all_movies.json">example</a></td>
                 </tr>
                 <tr>
                     <td>Get list movies by title.</td>
-                    <td>/movies/:title</td>
+                    <td>/movies/[TITLE]</td>
                     <td>GET</td>
                     <td>None</td>
-                    <td>A JSON object contain data(description, genres, director,image URL) about the movie chose. </td>
+                    <td>A JSON object contain data(description, genres, director,image URL) about the movie chose. Structured like: <br> <a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/get_movies.json">example</a> </td>
                 </tr>
                 <tr>
                     <td>Get list directors.</td>
                     <td>/directors</td>
                     <td>GET</td>
                     <td>None</td>
-                    <td>JSON object contain all the directors.</td>
+                    <td>JSON object contain all the directors. Structured like:<br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/all_directors.json">example</a></td>
                 </tr>
                 <tr>
                     <td>Get list director by name.</td>
-                    <td>/director/:name</td>
+                    <td>/director/[NAME]</td>
                     <td>GET</td>
                     <td>None</td>
-                    <td>A JSON object contain data about director chose, bio, holding name, birthyear and movies</td>
+                    <td>A JSON object contain data about director chose, bio, holding name, birthyear and movies. Structured like:<br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/get_directors.json">example</a> </td>
                 </tr>
                 <tr>
                     <td>Get list actors.</td>
                     <td>/actors</td>
                     <td>GET</td>
                     <td>None</td>
-                    <td>JSON object contain data about all the actors. </td>
+                    <td>JSON object contain data about all the actors. Structured like: <br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/all_actors.json">example</a></td>
                 </tr>
                 <tr>
                     <td>Get list genres</td>
                     <td>/genres</td>
                     <td>GET</td>
                     <td>None</td>
-                    <td>A JSON object contain data about all the genres</td>
+                    <td>A JSON object contain data about all the genres. Structured like:<br><a href="/home/giuseppe/Desktop/myMovies/public/endpoints_examples/all_actors.json">example</a></td>
                 </tr>
                 <tr>
                     <td>Get list actors by name.</td>
-                    <td>/actors/:name</td>
+                    <td>/actors/[NAME]</td>
                     <td>GET</td>
                     <td>None</td>
                     <td>JSON object contain data about actor chose, holding name birthyear and movies</td>

@@ -1,0 +1,121 @@
+{
+	"_id" : ObjectId("608bdc4acfc164ae23558485"),
+	"title" : "The godfather",
+	"description" : "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+	"genre" : ObjectId("608b0d370f2333d73040227a"),
+	"director" : ObjectId("608bc5cfacd55495c650afbd"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
+	"Actors" : [
+		ObjectId("608bc92acfc164ae2355847b")
+	],
+	"Rating" : [
+		"9.5"
+	]
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae23558486"),
+	"title" : "Pulp Fiction",
+	"description" : "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.",
+	"genre" : [
+		ObjectId("608b0d370f2333d730402283"),
+		ObjectId("608b0d370f2333d73040227d")
+	],
+	"director" : ObjectId("608bc5cfacd55495c650afba"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg",
+	"Actors" : [
+		ObjectId("608bc92acfc164ae2355847a")
+	],
+	"Rating" : [
+		"9.3"
+	]
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae23558487"),
+	"title" : "Psycho",
+	"description" : "Psycho tells the story of Marion Crane, who steals $40,000 from her employer. She leaves her home in Phoenix, Arizona and ends up at the Bates Motel in Fairvale, California. ... It is based on the book of the same name, written by Robert Bloch, which, in turn, was loosely based on the true story of serial killer Ed Gein.",
+	"genre" : ObjectId("608b0d370f2333d730402280"),
+	"director" : ObjectId("608bc5cfacd55495c650afbc"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae23558488"),
+	"title" : "Django",
+	"description" : "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi. In 1858, a bounty-hunter named King Schultz seeks out a slave named Django and buys him because he needs him to find some men he is looking for.",
+	"genre" : ObjectId("608b0d370f2333d73040227f"),
+	"director" : ObjectId("608bc5cfacd55495c650afba"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	"Actors" : [
+		ObjectId("608bc92acfc164ae23558481")
+	]
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae23558489"),
+	"title" : "Taxi driver",
+	"description" : "Suffering from insomnia, disturbed loner Travis Bickle (Robert De Niro) takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city. When Travis meets pretty campaign worker Betsy (Cybill Shepherd), he becomes obsessed with the idea of saving the world, first plotting to assassinate a presidential candidate, then directing his attentions toward rescuing 12-year-old prostitute Iris (Jodie Foster).",
+	"genre" : ObjectId("608b0d370f2333d73040227b"),
+	"director" : ObjectId("608bc5cfacd55495c650afbb"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848a"),
+	"title" : "Reservoir dogs",
+	"description" : "Six criminals, who are strangers to each other, are hired by a crime boss, Joe Cabot, to carry out a diamond robbery. Right at the outset, they are given false names with the intention that they won`t get too close and will concentrate on the job instead. They are completely sure that the robbery is going to be a success. But, when the police show up right at the time and the site of the robbery, panic spreads amongst the group members, and two of them are killed in the subsequent shootout, along with a few policemen and civilians. When the remaining people assemble at the premeditated rendezvous point (a warehouse), they begin to suspect that one of them is an undercover cop.",
+	"genre" : [
+		ObjectId("608b0d370f2333d73040227b"),
+		ObjectId("608b0d370f2333d73040227a")
+	],
+	"director" : ObjectId("608bc5cfacd55495c650afba"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848b"),
+	"title" : "Notorious",
+	"description" : "Hitchcock’s films are often psychologically complex and mordantly funny, but they’re rarely deeply romantic. “Notorious” is a dark World War II spy thriller written by Ben Hecht in which intelligence man Devlin (Cary Grant) persuades sexily carefree Alicia Huberman (Ingrid Bergman) to infiltrate a group of Nazis in South America. As the duo fall in love –and enjoy one of the screen’s longest kisses–Alicia feels good about serving a higher purpose. But things get muddled when old family friend Alexander Sebastian (Claude Rains) proposes to Alicia. She and Devlin are both conflicted about doing the right thing for each other and for their country, and they send mixed messages. So she goes ahead and puts herself in great danger. In a stunning sequence, Devlin comes to a lavish party where he and Alicia, who has stolen the wine cellar key from her husband, explore the cellar and embrace to make Alexander think that Devlin is just making advances to her. Alexander’s mother divines the truth, and starts to poison Alicia. Devlin has to figure out how to save her. Grant, Bergman and Rains are all at the top of their persuasive powers. And so is Hitchcock.",
+	"genre" : ObjectId("608b0d370f2333d730402280"),
+	"director" : ObjectId("608bc5cfacd55495c650afbc"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BYTc1NGViOTMtNjZhNS00OGY2LWI4MmItOWQwNTY4MDMzNWI3L2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848c"),
+	"title" : "Only Lovers left alive",
+	"description" : "In the abandoned Delray, Michigan, the depressed musician Adam (Tom Hiddleston) lives in an old house in the middle of derelict buildings with his musical instruments and books. Adam has been a vampire for centuries, but is tired with the fate of the world taken by the wrong decisions of mankind.",
+	"genre" : ObjectId("608b0d370f2333d730402279"),
+	"director" : ObjectId("608bc5cfacd55495c650afbf"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BMTY0NTQ1NjA0OV5BMl5BanBnXkFtZTgwMDg5NjkzMTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848d"),
+	"title" : "The conversation",
+	"description" : "brilliantly-acted thriller stars Gene Hackman as Harry Caul, a surveillance expert who’s been hired to bug the conversation between an unsuspecting couple. What he records is cryptically troubling, and when realizing that the release of the tape could lead to a murder, he’s left with an impossible choice. Hackman’s tragic and morally-minded embodiment of Harry ranks among the best performances in his illustrious career, while Coppola inches the film into darker, murkier and more nail-biting territory with uncompromising patience.",
+	"genre" : [
+		ObjectId("608b0d370f2333d730402276"),
+		ObjectId("608b0d370f2333d730402283")
+	],
+	"director" : ObjectId("608bc5cfacd55495c650afbd"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BNzZlMThlYzktMDlmZC00YTI1LThlNzktZWU0MTY4ODc2ZWY4XkEyXkFqcGdeQXVyNTA1NjYyMDk@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848e"),
+	"title" : "Full metal jacket",
+	"description" : "Full Metal Jacket is a 1987 war film directed, co-written, and produced by Stanley Kubrick and starring Matthew Modine, R. Lee Ermey, Vincent D'Onofrio and Adam Baldwin. The screenplay by Kubrick, Michael Herr, and Gustav Hasford was based on Hasford's 1979 novel The Short-Timers.The storyline follows a platoon of U.S. Marines through their boot camp training in Marine Corps Recruit Depot Parris Island, South Carolina, primarily focusing on two privates, Joker and Pyle, who struggle under their abusive drill instructor, Gunnery Sergeant Hartman, and the experiences of two of the platoon's Marines in Vietnamese cities of Da Nang and Huế during the Tet Offensive of the Vietnam War.[6] The film's title refers to the full metal jacket bullet used by military servicemen.",
+	"genre" : ObjectId("608b0d370f2333d730402282"),
+	"director" : ObjectId("608bc5cfacd55495c650afc2"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+}
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848f"),
+	"title" : "La Dolce Vita",
+	"description" : "is a 1960 comedy-drama film directed and co-written by Federico Fellini. The film follows Marcello Rubini (Marcello Mastroianni), a journalist writing for gossip magazines, over seven days and nights on his journey through the 'sweet life' of Rome in a fruitless search for love and happiness. The screenplay, co-written by Fellini and three other screenwriters, can be divided into a prologue, seven major episodes interrupted by an intermezzo, and an epilogue, according to the most common interpretation.",
+	"genre" : [
+		ObjectId("608b0d370f2333d73040227b"),
+		ObjectId("608b0d370f2333d730402277")
+	],
+	"director" : ObjectId("608bc5cfacd55495c650afc1"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BODQ0NzY5NGEtYTc5NC00Yjg4LTg4Y2QtZjE2MTkyYTNmNmU2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY268_CR4,0,182,268_AL_.jpg",
+	"Rating" : [
+		"9.8"
+	]
+}
+
+
+

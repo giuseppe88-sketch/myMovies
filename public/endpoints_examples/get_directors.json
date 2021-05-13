@@ -1,0 +1,7 @@
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afca"),
+	"name" : "Guy Stuart Ritchie",
+	"bio" : "s an English film director, producer, writer, and businessman. His work includes British gangster films and the Sherlock Holmes franchise.",
+	"birthYear" : ISODate("1968-09-10T00:00:00Z")
+}
+

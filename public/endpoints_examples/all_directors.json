@@ -1,0 +1,114 @@
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afba"),
+	"name" : "Quentin Tarantino",
+	"bio" : "Quentin Tarantino is an American film director, screenwriter, producer, and actor. His films are characterized by nonlinear storylines, dark humor, aestheticization of violence, extended scenes of dialogue, ensemble casts, references to popular culture and a wide variety of other films, eclectic soundtracks primarily containing songs and score pieces from the 1960s to the 1980s, alternate history, and features of neo-noir film.",
+	"birthYear" : ISODate("1963-03-27T00:00:00Z"),
+	"movies" : [
+		ObjectId("608bdc4acfc164ae23558486"),
+		ObjectId("608bdc4acfc164ae23558488")
+	]
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afbb"),
+	"name" : "Martin Scorsese",
+	"bio" : "Martin Scorses is an American film director, producer, screenwriter, and actor. One of the major figures of the New Hollywood era, he is widely regarded as one of the most significant and influential directors in film history.",
+	"birthYear" : ISODate("1942-11-17T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afbc"),
+	"name" : "Alfred Hitchcock",
+	"bio" : "was an English film director, producer, and screenwriter. He is one of the most influential and widely studied filmmakers in the history of cinema. Known as the 'Master of Suspense', he directed over 50 feature films in a career",
+	"birthYear" : ISODate("1899-08-13T00:00:00Z"),
+	"deathYear" : ISODate("1980-04-29T00:00:00Z"),
+	"movies" : ObjectId("608bdc4acfc164ae23558487")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afbd"),
+	"name" : "Francis Ford Coppola",
+	"bio" : "is an American director , screenwriter and film producer . As the director of classics such as The Godfather and Apocalypse Now, he is one of the most important filmmakers in American cinema.",
+	"birthYear" : ISODate("1939-04-07T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afbe"),
+	"name" : "David Keith Lynch",
+	"bio" : " is an American filmmaker, painter, visual artist, musician, writer and occasional actor.A recipient of an Academy Honorary Award in 2019, Lynch has received three Academy Award nominations for Best Director, and the César Award for Best Foreign Film twice, as well as the Palme d'Or at the Cannes Film Festivaland a Golden Lion award for lifetime achievement at the Venice Film Festival. In 2007, a panel of critics convened by The Guardian announced that 'after all the discussion, no one could fault the conclusion that David Lynch is the most important film-maker of the current era', while AllMovie called him 'the Renaissance man of modern American filmmaking'. His work led to him being labeled 'the first popular surrealist' by film critic Pauline Kael",
+	"birthYear" : ISODate("1946-01-20T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afbf"),
+	"name" : "Jim Jarmusch",
+	"bio" : "is an American film director, screenwriter, actor, producer, editor, and composer. He has been a major proponent of independent cinema since the 1980s, directing films such as Stranger Than Paradise (1984), Down by Law (1986), Mystery Train (1989), Dead Man (1995), Ghost Dog: The Way of the Samurai (1999), Coffee and Cigarettes (2003), Broken Flowers (2005), Only Lovers Left Alive (2013), Paterson (2016), and The Dead Don't Die (2019).[3] Stranger Than Paradise was added to the National Film Registry in December 2002.As a musician, Jarmusch has composed music for his films and released two albums with Jozef van Wissem",
+	"birthYear" : ISODate("1953-01-22T00:00:00Z"),
+	"movies" : ObjectId("608bdc4acfc164ae2355848c")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc0"),
+	"name" : "Sergio Leone",
+	"bio" : "was an Italian film director, producer and screenwriter, credited as the creator of the Spaghetti Western genre[1][2] and widely regarded as one of the most influential directors in the history of cinema",
+	"birthYear" : ISODate("1929-01-03T00:00:00Z"),
+	"deathYear" : ISODate("1989-04-30T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc1"),
+	"name" : "Federico Fellini",
+	"bio" : "was an Italian film director and screenwriter known for his distinctive style, which blends fantasy and baroque images with earthiness. He is recognized as one of the greatest and most influential filmmakers of all time. His films have ranked highly in critical polls such as that of Cahiers du cinéma and Sight & Sound, which lists his 1963 film 8+1⁄2 as the 10th-greatest film.",
+	"birthYear" : ISODate("1920-01-20T00:00:00Z"),
+	"deathYear" : ISODate("1993-10-31T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc2"),
+	"name" : "Stanley Kubrick",
+	"bio" : "was an American film director, producer, screenwriter, and photographer. He is frequently cited as one of the greatest filmmakers in cinematic history. His films, which are mostly adaptations of novels or short stories, cover a wide range of genres, and are noted for their realism, dark humor, unique cinematography, extensive set designs, and evocative use of music.",
+	"birthYear" : ISODate("1928-07-26T00:00:00Z"),
+	"deathYear" : ISODate("1999-03-07T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc3"),
+	"name" : "Wesley Wales Anderson",
+	"bio" : "s an American filmmaker. His films are known for their symmetry, eccentricity and distinctive visual and narrative styles,[1] and he is cited by some critics as a modern-day example of the auteur. Three of his films – The Royal Tenenbaums, Moonrise Kingdom, and The Grand Budapest Hotel – appeared in BBC Culture's 2016 poll of the greatest films since 2000.",
+	"birthYear" : ISODate("1969-05-01T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc4"),
+	"name" : "Brian Russell De Palma",
+	"bio" : "is an American film director and screenwriter. With a career spanning over 50 years, he is best known for his work in the suspense, crime and psychological thriller genres.",
+	"birthYear" : ISODate("1940-09-11T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc5"),
+	"name" : "Woody Allen",
+	"bio" : "is an American film director, writer, actor, and comedian whose career spans more than six decades and multiple Academy Award-winning films. He began his career as a comedy writer on Sid Caesar's comedy variety program Your Show of Shows, working alongside Mel Brooks, Carl Reiner, Larry Gelbart and Neil Simon.",
+	"birthYear" : ISODate("1935-12-01T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc6"),
+	"name" : "Ernst Ingmar Bergman",
+	"bio" : "was a Swedish film director, screenwriter, and producer. Considered to be among the most accomplished and influential filmmakers of all time,[1][2][3] Bergman's films include Smiles of a Summer Night (1955), The Seventh Seal (1957), The Silence (1963), Wild Strawberries (1957), Persona (1966), Cries and Whispers (1972), Scenes from a Marriage (1973), and Fanny and Alexander (1982); the last two exist in extended television versions.",
+	"birthYear" : ISODate("1918-07-14T00:00:00Z"),
+	"deathYear" : ISODate("2007-07-30T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc7"),
+	"name" : "David Andrew Leo Fincher",
+	"bio" : "s an American film director. Known for his psychological thrillers, his films have received 40 nominations at the Academy Awards, including three for him as Best Director.",
+	"birthYear" : ISODate("1962-01-01T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc8"),
+	"name" : "Timothy Walter Burton",
+	"bio" : "is an American film director, producer, writer, and artist. Known for his gothic fantasy and horror films.",
+	"birthYear" : ISODate("1958-08-25T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afc9"),
+	"name" : "Guillermo del Toro ",
+	"bio" : "is a Mexican filmmaker, author, actor, and make-up artist. He is best known for his Academy Award-winning fantasy films Pan's Labyrinth (2006) and The Shape of Water (2017), winning the Oscars for Best Director and Best Picture for the latter.",
+	"birthYear" : ISODate("1964-10-09T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc5cfacd55495c650afca"),
+	"name" : "Guy Stuart Ritchie",
+	"bio" : "s an English film director, producer, writer, and businessman. His work includes British gangster films and the Sherlock Holmes franchise.",
+	"birthYear" : ISODate("1968-09-10T00:00:00Z")
+}

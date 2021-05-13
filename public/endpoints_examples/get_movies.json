@@ -1,0 +1,15 @@
+{
+	"_id" : ObjectId("608bdc4acfc164ae2355848f"),
+	"title" : "La Dolce Vita",
+	"description" : "is a 1960 comedy-drama film directed and co-written by Federico Fellini. The film follows Marcello Rubini (Marcello Mastroianni), a journalist writing for gossip magazines, over seven days and nights on his journey through the 'sweet life' of Rome in a fruitless search for love and happiness. The screenplay, co-written by Fellini and three other screenwriters, can be divided into a prologue, seven major episodes interrupted by an intermezzo, and an epilogue, according to the most common interpretation.",
+	"genre" : [
+		ObjectId("608b0d370f2333d73040227b"),
+		ObjectId("608b0d370f2333d730402277")
+	],
+	"director" : ObjectId("608bc5cfacd55495c650afc1"),
+	"image" : "https://m.media-amazon.com/images/M/MV5BODQ0NzY5NGEtYTc5NC00Yjg4LTg4Y2QtZjE2MTkyYTNmNmU2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY268_CR4,0,182,268_AL_.jpg",
+	"Rating" : [
+		"9.8"
+	]
+}
+

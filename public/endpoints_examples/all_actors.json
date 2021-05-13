@@ -1,0 +1,77 @@
+{
+	"_id" : ObjectId("608bc92acfc164ae23558479"),
+	"name" : "Robert Anthony De Niro Jr",
+	"bio" : "is an American actor, producer, and director. He is particularly known for his nine collaborations with filmmaker Martin Scorsese, and is the recipient of various accolades, including two Academy Awards, a Golden Globe Award, the Cecil B. DeMille Award, and a Screen Actors Guild Life Achievement Award. In 2009, De Niro received the Kennedy Center Honor, and received a Presidential Medal of Freedom from U.S. President Barack Obama in 2016.",
+	"birthYear" : ISODate("1943-08-17T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae2355847a"),
+	"name" : "Samuel Leroy Jackson",
+	"bio" : "is an American actor and producer. Widely regarded as one of the most popular actors of his generation, the films in which he has appeared have collectively grossed over $27 billion worldwide, making him the highest-grossing actor of all time",
+	"birthYear" : ISODate("1948-12-21T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae2355847b"),
+	"name" : "Alfredo James Pacino",
+	"bio" : "is an American actor and filmmaker. In a career spanning over five decades, he has received many awards and nominations, including an Academy Award, two Tony Awards, and two Primetime Emmy Awards. He is one of the few performers to have received the Triple Crown of Acting. He has also been honored with the AFI Life Achievement Award, the Cecil B. DeMille Award, and the National Medal of Arts.",
+	"birthYear" : ISODate("1940-04-25T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae2355847c"),
+	"name" : "Dustin Lee Hoffman",
+	"bio" : "He is known for his versatile portrayals of antiheroes and emotionally vulnerable characters. Actor Robert De Niro described him as 'an actor with the everyman's face who embodied the heartbreakingly human",
+	"birthYear" : ISODate("1937-08-08T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae2355847d"),
+	"name" : "John Joseph Nicholson ",
+	"bio" : "He is known for having played a wide range of starring and supporting roles, including comic characters, romantic leads, anti-heroes and villains. In many of his films, he played the 'eternal outsider, the sardonic drifter', someone who rebels against the social structure",
+	"birthYear" : ISODate("1937-04-22T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae2355847e"),
+	"name" : "John Christopher Depp II ",
+	"bio" : "He has been nominated for ten Golden Globe Awards, winning one for Best Actor for Sweeney Todd: The Demon Barber of Fleet Street (2007), and has been nominated for three Academy Awards for Best Actor, among other accolades.In the 2000s, Depp became one of the most commercially successful film stars by playing Jack Sparrow in the swashbuckler film series Pirates of the Caribbean (2003–present)",
+	"birthYear" : ISODate("1963-06-09T00:00:00Z")
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae2355847f"),
+	"name" : "Denzel Hayes Washington Jr",
+	"bio" : "is an American actor, director, and producer. He has been described as an actor who reconfigured 'the concept of classic movie stardom,' mostly associating with characters defined by their grace, dignity, humanity, and inner strength.",
+	"birthYear" : ISODate("1954-12-28T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae23558480"),
+	"name" : "Eric Marlon Bishop",
+	"bio" : "known professionally as Jamie Foxx, is an American actor, singer-songwriter, comedian, television presenter, and record producer. Foxx became widely known for his portrayal of Ray Charles in the 2004 biographical film Ray, for which he won the Academy Award, BAFTA, Screen Actors Guild Award, Critics' Choice Movie Award and Golden Globe Award for Best Actor.",
+	"birthYear" : ISODate("1967-12-13T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae23558481"),
+	"name" : "Christoph Waltz",
+	"bio" : "is an Austrian-German actor and director. Since 2009 he has mainly been active in the United States.[1][2][3] His accolades include two Academy Awards, two Golden Globe Awards, two British Academy Film Awards and two Screen Actors Guild Awards.His breakout American role came in Quentin Tarantino's 2009 film Inglourious Basterds, in which he played SS officer Hans Landa. He would later collaborate with Tarantino once again in 2012, when he played bounty hunter Dr. King Schultz in Django Unchained. For each performance, he earned an Academy Award, BAFTA Award, and Golden Globe Award for Best Supporting Actor. Waltz also received the Best Actor Award at the Cannes Film Festival and a Screen Actors Guild Award for his portrayal of Landa.",
+	"birthYear" : ISODate("1956-10-04T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae23558482"),
+	"name" : "Edward Thomas Hardy",
+	"bio" : " is an English actor and producer. After studying acting at the Drama Centre London, he made his film debut in Ridley Scott's Black Hawk Down (2001). He has since been nominated for the Academy Award for Best Supporting Actor, two Critics' Choice Movie Awards and two BAFTA Awards, receiving the 2011 BAFTA Rising Star Award.",
+	"birthYear" : ISODate("1977-09-15T00:00:00Z"),
+	"movies" : [ ]
+}
+{
+	"_id" : ObjectId("608bc92acfc164ae23558483"),
+	"name" : "Jason Statham",
+	"bio" : "is an English actor. Typecast as the antihero, he is known for his action-thriller roles and portraying tough, irredeemable, and machiavellian characters.",
+	"birthYear" : ISODate("1967-07-26T00:00:00Z"),
+	"movies" : [ ]
+}
+

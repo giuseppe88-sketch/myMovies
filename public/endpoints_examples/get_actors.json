@@ -1,0 +1,8 @@
+{
+	"_id" : ObjectId("608bc92acfc164ae23558483"),
+	"name" : "Jason Statham",
+	"bio" : "is an English actor. Typecast as the antihero, he is known for his action-thriller roles and portraying tough, irredeemable, and machiavellian characters.",
+	"birthYear" : ISODate("1967-07-26T00:00:00Z"),
+	"movies" : [ ]
+}
+
