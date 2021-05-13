@@ -16,4 +16,4 @@
 # LIVE LINK
 
 - [project link] (https://mymovies-db-api.herokuapp.com/)
-* [Dcoumentation] (public/documentation.html)
+* [Documentation] (https://mymovies-db-api.herokuapp.com/documentation)
