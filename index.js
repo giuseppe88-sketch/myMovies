@@ -86,7 +86,7 @@ app.post('/users',[
   });
 
 //get all movies json 
-app.get('/movies', passport.authenticate('jwt', { session: false }), (req, res) => {
+app.get('/movies', /*passport.authenticate('jwt', { session: false }), */(req, res) => {
   movies.find()
     .then((movies) => {
       res.status(201).json(movies);
@@ -200,9 +200,9 @@ app.delete('/users/:username', passport.authenticate('jwt', { session: false }),
   users.findOneAndRemove({ username: req.params.username })
     .then((user) => {
       if (!user) {
-        res.status(400).send(req.params.Username + ' was not found');
+        res.status(400).send(req.params.username + ' was not found');
       } else {
-        res.status(200).send(req.params.Username + ' was deleted.');
+        res.status(200).send(req.params.username + ' was deleted.');
       }
     })
     .catch((err) => {
