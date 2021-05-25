@@ -11,7 +11,7 @@
 73/home/giuseppe/Desktop/myMovies/public/endpoints_examples/all_actors.json1620904772712243874 0
 57/home/giuseppe/Desktop/myMovies/public/endpoints_examples1620905009045188208 1
 38/home/giuseppe/Desktop/myMovies/public1620902984565221700 1
-43/home/giuseppe/Desktop/myMovies/passport.js1620980477340914302 0
+43/home/giuseppe/Desktop/myMovies/passport.js1621928782873023788 0
 58/home/giuseppe/Desktop/myMovies/img/movie-clapper-open.svg1619166879810508480 0
 71/home/giuseppe/Desktop/myMovies/node_modules/mpath/lib/stringToParts.js499162500000000000 0
 63/home/giuseppe/Desktop/myMovies/node_modules/mpath/package.json499162500000000000 0
@@ -776,7 +776,7 @@
 72/home/giuseppe/Desktop/myMovies/node_modules/validator/lib/isHexColor.js499162500000000000 0
 67/home/giuseppe/Desktop/myMovies/node_modules/import-fresh/readme.md499162500000000000 0
 68/home/giuseppe/Desktop/myMovies/node_modules/import-fresh/index.d.ts499162500000000000 0
-40/home/giuseppe/Desktop/myMovies/index.js1620978574070888304 0
+40/home/giuseppe/Desktop/myMovies/index.js1621325545168977698 0
 57/home/giuseppe/Desktop/myMovies/node_modules/import-fresh1618995746928355255 1
 73/home/giuseppe/Desktop/myMovies/node_modules/morgan/node_modules/depd/lib1619001401930290681 1
 64/home/giuseppe/Desktop/myMovies/node_modules/rimraf/package.json499162500000000000 0
@@ -1356,7 +1356,7 @@
 71/home/giuseppe/Desktop/myMovies/node_modules/file-entry-cache/README.md499162500000000000 0
 92/home/giuseppe/Desktop/myMovies/node_modules/@babel/highlight/node_modules/has-flag/index.js1514920575000000000 0
 73/home/giuseppe/Desktop/myMovies/node_modules/require-from-string/index.js1523267347000000000 0
-39/home/giuseppe/Desktop/myMovies/auth.js1620325121759514163 0
+39/home/giuseppe/Desktop/myMovies/auth.js1621843065389930405 0
 71/home/giuseppe/Desktop/myMovies/node_modules/lodash/fp/cloneDeepWith.js499162500000000000 0
 55/home/giuseppe/Desktop/myMovies/node_modules/mquery/lib1620035064873197918 1
 72/home/giuseppe/Desktop/myMovies/node_modules/mongoose/lib/helpers/cursor1620035065209201541 1
@@ -3218,7 +3218,7 @@
 70/home/giuseppe/Desktop/myMovies/node_modules/validator/es/lib/rtrim.js499162500000000000 0
 59/home/giuseppe/Desktop/myMovies/node_modules/sift/README.md499162500000000000 0
 64/home/giuseppe/Desktop/myMovies/node_modules/mongoose/browser.js499162500000000000 0
-41/home/giuseppe/Desktop/myMovies/models.js1620489261536860692 0
+41/home/giuseppe/Desktop/myMovies/models.js1621523606178410052 0
 53/home/giuseppe/Desktop/myMovies/node_modules/cors/lib1620467091186976206 1
 69/home/giuseppe/Desktop/myMovies/node_modules/lodash/fp/pullAllWith.js499162500000000000 0
 69/home/giuseppe/Desktop/myMovies/node_modules/is-number-object/LICENSE499162500000000000 0
