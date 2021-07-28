@@ -88,7 +88,7 @@ app.post('/users',[
 //get all movies json 
 app.get('/movies',passport.authenticate('jwt', { session: false }),(req, res) => {
    movies.find()
-    .populate('genre')
+    .populate({path:'genre',select:['name','description']})
      .then((movies) => {
       res.status(201).json(movies);
     })
