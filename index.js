@@ -108,6 +108,7 @@ app.get("/documentation", (req,res) =>{
 //create routes and define response sending json object
 app.get("/movies/:title",passport.authenticate('jwt', { session: false }),(req,res)=>{
   movies.findOne({ title: req.params.title })
+    .populate('genre','name')
     .then((usermovie) => {
       res.json(usermovie);
     })
