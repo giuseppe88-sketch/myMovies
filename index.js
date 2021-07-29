@@ -230,8 +230,8 @@ app.post('/users/:username/favorites/:movieID', passport.authenticate('jwt', { s
   });
 });
 //delete favorites froma user
-app.delete("/users/:username/favorites/:movie",passport.authenticate('jwt', { session: false }),(req,res)=>{
-  users.findOneAndRemove({ favoritesMovies: req.params.favoritesMovies })
+app.delete("/users/:username/favorites/:movieID",passport.authenticate('jwt', { session: false }),(req,res)=>{
+  users.findOneAndRemove({ favoritesMovies: req.params.movieID })
   .then((favMov) => {
     if (!favMov) {
       res.status(400).send(req.params.favoritesMovies + ' was not found');
