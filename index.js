@@ -217,7 +217,7 @@ app.delete('/users/:username', passport.authenticate('jwt', { session: false }),
 //add movies to favorites list
 app.post('/users/:username/favorites/:movieID', passport.authenticate('jwt', { session: false }),(req, res) => {
   users.findOneAndUpdate({ username: req.params.username }, {
-     $push: { favoriteMovies: req.params.movieID }
+     $push: { favoritesMovies: req.params.movieID }
    },
    { new: true }, // This line makes sure that the updated document is returned
   (err, updatedUser) => {
