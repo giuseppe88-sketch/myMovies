@@ -231,13 +231,13 @@ app.post('/users/:username/favorites/:movieID', passport.authenticate('jwt', { s
 });
 //delete favorites froma user
 app.delete("/users/:username/favorites/:movieID",passport.authenticate('jwt', { session: false }),(req,res)=>{
-  users.findOneAndRemove({ favoritesMovies: req.params.movieID })
-  .then((favMov) => {
-    if (!favMov) {
-      res.status(400).send(req.params.favoritesMovies + ' was not found');
-    } else {
-      res.status(200).send(req.params.favoritesMovies + ' was deleted.');
-    }
+  users.findOneAndUpdate({ username: req.params.username },{
+      $pull: { favoritesMovies: req.params.movieID },
+    },
+    { new: true },
+  )
+  .then((userQueried) => {
+    res.status(201).json(userQueried);
   })
   .catch((err) => {
     console.error(err);
