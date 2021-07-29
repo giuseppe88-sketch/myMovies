@@ -98,7 +98,17 @@ app.get('/movies',passport.authenticate('jwt', { session: false }),(req, res) =>
       res.status(500).send('Error: ' + error);
     });
 });
-
+ 
+app.get('/users/:username/favorites',passport.authenticate('jwt', { session: false }),(req, res) => {
+  users.favoritesMovies.find()
+    .then((favMov)=>{
+      res.status(201).json(favMov)
+    })
+    .catch((error)=>{
+      console.error(error);
+      res.status(500).send('Error: ' + error);
+    })
+})
 
 //defines url documentation and respons whit sendfile
 app.get("/documentation", (req,res) =>{
