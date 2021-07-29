@@ -91,6 +91,7 @@ app.get('/movies',passport.authenticate('jwt', { session: false }),(req, res) =>
     .populate({path:'genre',select:['name','description']})
      .then((movies) => {
       res.status(201).json(movies);
+      console.log(movies)
     })
     .catch((error) => {
       console.error(error);
@@ -214,7 +215,7 @@ app.delete('/users/:username', passport.authenticate('jwt', { session: false }),
 
     
 //add movies to favorites list
-app.post('/users/:username/favorites/:movie', passport.authenticate('jwt', { session: false }),(req, res) => {
+app.post('/users/:username/favorites/:movieID', passport.authenticate('jwt', { session: false }),(req, res) => {
   users.findOneAndUpdate({ username: req.params.username }, {
      $push: { favoriteMovies: req.params.movieID }
    },
